@@ -738,7 +738,7 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   -webkit-column-gap: 2.9375rem;
-    -moz-column-gap: 2.9375rem;
+     -moz-column-gap: 2.9375rem;
           column-gap: 2.9375rem;
   row-gap: 0.625rem;
   -ms-grid-columns: 1fr 2.9375rem auto;
@@ -747,7 +747,7 @@ body._lock {
 @media (max-width: 61.99875em) {
   .header__content {
     -webkit-column-gap: 1.875rem;
-      -moz-column-gap: 1.875rem;
+       -moz-column-gap: 1.875rem;
             column-gap: 1.875rem;
   }
 }
@@ -843,14 +843,14 @@ body._lock {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-column-gap: 2.875rem;
-    -moz-column-gap: 2.875rem;
+     -moz-column-gap: 2.875rem;
           column-gap: 2.875rem;
   row-gap: 0.625rem;
 }
 @media (max-width: 61.99875em) {
   .menu__list {
     -webkit-column-gap: 1.875rem;
-      -moz-column-gap: 1.875rem;
+       -moz-column-gap: 1.875rem;
             column-gap: 1.875rem;
   }
 }
@@ -1067,7 +1067,7 @@ body._lock {
 }
 @media (min-width: 47.99875em) {
   .footer__buttons {
-    -ms-grid-columns: (minmax(9.375rem, 11.125rem))[2];
+    -ms-grid-columns: minmax(9.375rem, 11.125rem) minmax(9.375rem, 11.125rem);
     grid-template-columns: repeat(2, minmax(9.375rem, 11.125rem));
   }
 }
